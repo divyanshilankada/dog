@@ -1,0 +1,152 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+#header_container
+{
+    background: #92E0E5;
+    color: white;
+    height: 50px;
+    padding: 0px 30px 0px 50px;
+    box-sizing: border-box;
+}
+
+#header_logo_box
+{
+    float: left;
+    width: 35px;
+    height: 35px;
+    text-indent: -9999px;
+    background: url('./images/logo.png') no-repeat;
+    background-size: 35px 35px;
+    margin-top: 8px;
+}
+
+#header_nav_box
+{
+    float: right;
+}
+
+#header_nav_box li
+{
+    display: inline-block;
+    padding: 17px 0px 17px 0px;
+}
+
+#header_nav_box li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 17px 15px 17px 15px;
+
+}
+
+#header_nav_box li:hover 
+{
+    background: #3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#hero_section
+{
+    background: url('./images/background-hero.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+#hero_image img
+{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    border: 3px solid #3F8DA7;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: white;
+    border: 2px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+  
+.article_box {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+.article_box p
+{
+    margin-bottom: 40px;
+}
+
+.article_box h1
+{
+    color: #3F8DA7;
+}
+  
+  
+.article_image > img
+{
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+    height: 200px;
+    width: 200px;
+    margin: 25px 0;
+}
+
+footer {
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    margin: 40px 0;
+}
+   
+footer li {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 25px;
+}
+
+footer img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.link {
+    color: white
+}
+   
+.link:hover {
+    color: #92E0E5;
+}
+  
+  
